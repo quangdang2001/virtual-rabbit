@@ -1,0 +1,27 @@
+
+spring:
+  data:
+    mongodb:
+          host: localhost
+          port: 27017
+          database: sequenceDB
+
+qpid:
+  username: guest
+  password: guest
+  url:  amqp://localhost:5672
+
+
+
+#    root: ERROR
+#    com.example.demo: TRACE
+#    org.springframework.web.server.adapter.HttpWebHandlerAdapter: TRACE
+#    org.springframework.data.mongodb.core.ReactiveMongoTemplate: DEBUG
+#    org.hibernate.SQL: DEBUG
+#    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+#spring:
+#  data:
+#    mongodb:
+#      uri: mongodb+srv://quangdang2001:2211@kltnecommerce.ooth2h2.mongodb.net/KLTNEcommerce
+server:
+  port: 8081
